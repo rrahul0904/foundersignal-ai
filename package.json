@@ -1,0 +1,15 @@
+{
+  "name": "foundersignal-ai",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Clean-room GTM intelligence and B2B prospecting platform.",
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev": "npm run dev -w @foundersignal/web",
+    "build": "npm run build -w @foundersignal/web",
+    "start": "npm run start -w @foundersignal/web",
+    "test": "node --test packages/core/test/*.test.mjs",
+    "worker": "node apps/worker/src/index.mjs"
+  },
+  "engines": {"node": ">=22"}
+}

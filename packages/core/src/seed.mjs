@@ -1,0 +1,16 @@
+export const COMPANIES = [
+  { id: "c1", name: "Northstar Health", domain: "northstarhealth.example", industry: "Healthcare", country: "United States", employeeRange: "201-500", technologies: ["Snowflake", "dbt"] },
+  { id: "c2", name: "LedgerPeak", domain: "ledgerpeak.example", industry: "Financial Services", country: "United States", employeeRange: "51-200", technologies: ["PostgreSQL", "AWS"] },
+  { id: "c3", name: "OrbitCommerce", domain: "orbitcommerce.example", industry: "Retail", country: "Canada", employeeRange: "501-1000", technologies: ["Shopify", "BigQuery"] },
+  { id: "c4", name: "VectorGrid", domain: "vectorgrid.example", industry: "Software", country: "United Kingdom", employeeRange: "51-200", technologies: ["Databricks", "Azure"] },
+  { id: "c5", name: "BeaconOps", domain: "beaconops.example", industry: "Software", country: "United States", employeeRange: "11-50", technologies: ["Vercel", "PostgreSQL"] }
+];
+
+export const PEOPLE = [
+  { id: "p1", firstName: "Maya", lastName: "Chen", title: "VP Data Engineering", seniority: "VP", department: "Data", companyId: "c1", country: "United States", city: "Boston", email: "maya.chen@northstarhealth.example", phone: "+1 617 555 0101", linkedin: "https://linkedin.com/in/example-maya-chen", verifiedAt: "2026-08-28", verificationStatus: "valid", confidence: 0.98 },
+  { id: "p2", firstName: "Jordan", lastName: "Reed", title: "Director of Analytics", seniority: "Director", department: "Data", companyId: "c2", country: "United States", city: "New York", email: "jordan.reed@ledgerpeak.example", phone: "+1 212 555 0114", linkedin: "https://linkedin.com/in/example-jordan-reed", verifiedAt: "2026-08-25", verificationStatus: "valid", confidence: 0.96 },
+  { id: "p3", firstName: "Amelia", lastName: "Grant", title: "Head of Growth", seniority: "Head", department: "Growth", companyId: "c3", country: "Canada", city: "Toronto", email: "amelia.grant@orbitcommerce.example", phone: "+1 416 555 0150", linkedin: "https://linkedin.com/in/example-amelia-grant", verifiedAt: "2026-08-20", verificationStatus: "valid", confidence: 0.94 },
+  { id: "p4", firstName: "Noah", lastName: "Williams", title: "CTO", seniority: "C-Level", department: "Engineering", companyId: "c4", country: "United Kingdom", city: "London", email: "noah.williams@vectorgrid.example", phone: "+44 20 7946 0211", linkedin: "https://linkedin.com/in/example-noah-williams", verifiedAt: "2026-08-27", verificationStatus: "valid", confidence: 0.99 },
+  { id: "p5", firstName: "Priya", lastName: "Shah", title: "Founder & CEO", seniority: "C-Level", department: "Executive", companyId: "c5", country: "United States", city: "Austin", email: "priya.shah@beaconops.example", phone: "+1 512 555 0172", linkedin: "https://linkedin.com/in/example-priya-shah", verifiedAt: "2026-08-30", verificationStatus: "valid", confidence: 0.99 },
+  { id: "p6", firstName: "Ethan", lastName: "Brooks", title: "Senior Data Engineering Manager", seniority: "Manager", department: "Data", companyId: "c1", country: "United States", city: "Chicago", email: "ethan.brooks@northstarhealth.example", phone: "+1 312 555 0188", linkedin: "https://linkedin.com/in/example-ethan-brooks", verifiedAt: "2026-08-29", verificationStatus: "valid", confidence: 0.97 }
+];
